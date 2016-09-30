@@ -15,10 +15,10 @@
 		4F0E524C1D9BC9BE00760424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E524A1D9BC9BE00760424 /* LaunchScreen.storyboard */; };
 		4F0E52571D9BC9BE00760424 /* HealthSportsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E52561D9BC9BE00760424 /* HealthSportsDemoUITests.m */; };
 		4F4040E71D9E12D300C97D11 /* SVProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 4F4040E61D9E12D300C97D11 /* SVProgressHUD */; };
-		4F4040F81D9E153E00C97D11 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */; };
-		4F4040F91D9E153E00C97D11 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */; };
 		4F9837511D9D11AD00E764D4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E52651D9BCA0F00760424 /* HealthKit.framework */; };
 		4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762591D9E21A10030D008 /* HealthSport01.jpeg */; };
+		4FA762641D9E353F0030D008 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762611D9E353F0030D008 /* SVProgressHUD.bundle */; };
+		4FA762651D9E353F0030D008 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA762631D9E353F0030D008 /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,10 @@
 		4F0E52651D9BCA0F00760424 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		4F0E52671D9BCA0F00760424 /* HealthSportsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthSportsDemo.entitlements; sourceTree = "<group>"; };
 		4F4040E61D9E12D300C97D11 /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SVProgressHUD; path = /Users/niugaohang/Desktop/HealthSportsDemo/HealthSportsDemo/SVProgressHUD; sourceTree = "<absolute>"; };
-		4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		4F4040F61D9E153E00C97D11 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		4FA762591D9E21A10030D008 /* HealthSport01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HealthSport01.jpeg; sourceTree = "<group>"; };
+		4FA762611D9E353F0030D008 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4FA762621D9E353F0030D008 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		4FA762631D9E353F0030D008 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 		4F0E52611D9BC9CF00760424 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				4FA762601D9E353F0030D008 /* SVProgressHUD */,
 				4FA762591D9E21A10030D008 /* HealthSport01.jpeg */,
-				4F4040F41D9E153E00C97D11 /* SVProgressHUD */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
@@ -144,12 +144,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4F4040F41D9E153E00C97D11 /* SVProgressHUD */ = {
+		4FA762601D9E353F0030D008 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */,
-				4F4040F61D9E153E00C97D11 /* SVProgressHUD.h */,
-				4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */,
+				4FA762611D9E353F0030D008 /* SVProgressHUD.bundle */,
+				4FA762621D9E353F0030D008 /* SVProgressHUD.h */,
+				4FA762631D9E353F0030D008 /* SVProgressHUD.m */,
 			);
 			path = SVProgressHUD;
 			sourceTree = "<group>";
@@ -242,8 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4040F81D9E153E00C97D11 /* SVProgressHUD.bundle in Resources */,
 				4F4040E71D9E12D300C97D11 /* SVProgressHUD in Resources */,
+				4FA762641D9E353F0030D008 /* SVProgressHUD.bundle in Resources */,
 				4F0E524C1D9BC9BE00760424 /* LaunchScreen.storyboard in Resources */,
 				4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */,
 				4F0E52491D9BC9BE00760424 /* Assets.xcassets in Resources */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0E52441D9BC9BE00760424 /* ViewController.m in Sources */,
-				4F4040F91D9E153E00C97D11 /* SVProgressHUD.m in Sources */,
+				4FA762651D9E353F0030D008 /* SVProgressHUD.m in Sources */,
 				4F0E52411D9BC9BE00760424 /* AppDelegate.m in Sources */,
 				4F0E523E1D9BC9BE00760424 /* main.m in Sources */,
 			);
