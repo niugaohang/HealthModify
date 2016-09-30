@@ -19,6 +19,7 @@
 		4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762591D9E21A10030D008 /* HealthSport01.jpeg */; };
 		4FA762641D9E353F0030D008 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762611D9E353F0030D008 /* SVProgressHUD.bundle */; };
 		4FA762651D9E353F0030D008 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA762631D9E353F0030D008 /* SVProgressHUD.m */; };
+		4FA762671D9E36D20030D008 /* xcodebug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762661D9E36D20030D008 /* xcodebug.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4FA762611D9E353F0030D008 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		4FA762621D9E353F0030D008 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		4FA762631D9E353F0030D008 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		4FA762661D9E36D20030D008 /* xcodebug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xcodebug.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		4F0E52611D9BC9CF00760424 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				4FA762661D9E36D20030D008 /* xcodebug.jpg */,
 				4FA762601D9E353F0030D008 /* SVProgressHUD */,
 				4FA762591D9E21A10030D008 /* HealthSport01.jpeg */,
 			);
@@ -247,6 +250,7 @@
 				4F0E524C1D9BC9BE00760424 /* LaunchScreen.storyboard in Resources */,
 				4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */,
 				4F0E52491D9BC9BE00760424 /* Assets.xcassets in Resources */,
+				4FA762671D9E36D20030D008 /* xcodebug.jpg in Resources */,
 				4F0E52471D9BC9BE00760424 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
