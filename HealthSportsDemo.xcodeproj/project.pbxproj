@@ -14,6 +14,11 @@
 		4F0E52491D9BC9BE00760424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E52481D9BC9BE00760424 /* Assets.xcassets */; };
 		4F0E524C1D9BC9BE00760424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E524A1D9BC9BE00760424 /* LaunchScreen.storyboard */; };
 		4F0E52571D9BC9BE00760424 /* HealthSportsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E52561D9BC9BE00760424 /* HealthSportsDemoUITests.m */; };
+		4F4040E71D9E12D300C97D11 /* SVProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 4F4040E61D9E12D300C97D11 /* SVProgressHUD */; };
+		4F4040F81D9E153E00C97D11 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */; };
+		4F4040F91D9E153E00C97D11 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */; };
+		4F9837511D9D11AD00E764D4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E52651D9BCA0F00760424 /* HealthKit.framework */; };
+		4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FA762591D9E21A10030D008 /* HealthSport01.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,13 @@
 		4F0E52521D9BC9BE00760424 /* HealthSportsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthSportsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0E52561D9BC9BE00760424 /* HealthSportsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthSportsDemoUITests.m; sourceTree = "<group>"; };
 		4F0E52581D9BC9BE00760424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0E52651D9BCA0F00760424 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4F0E52671D9BCA0F00760424 /* HealthSportsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthSportsDemo.entitlements; sourceTree = "<group>"; };
+		4F4040E61D9E12D300C97D11 /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SVProgressHUD; path = /Users/niugaohang/Desktop/HealthSportsDemo/HealthSportsDemo/SVProgressHUD; sourceTree = "<absolute>"; };
+		4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4F4040F61D9E153E00C97D11 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		4FA762591D9E21A10030D008 /* HealthSport01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HealthSport01.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9837511D9D11AD00E764D4 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 				4F0E523B1D9BC9BE00760424 /* HealthSportsDemo */,
 				4F0E52551D9BC9BE00760424 /* HealthSportsDemoUITests */,
 				4F0E523A1D9BC9BE00760424 /* Products */,
+				4F0E52621D9BC9E100760424 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +95,8 @@
 		4F0E523B1D9BC9BE00760424 /* HealthSportsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4F0E52671D9BCA0F00760424 /* HealthSportsDemo.entitlements */,
+				4F0E52611D9BC9CF00760424 /* Libs */,
 				4F0E523F1D9BC9BE00760424 /* AppDelegate.h */,
 				4F0E52401D9BC9BE00760424 /* AppDelegate.m */,
 				4F0E52421D9BC9BE00760424 /* ViewController.h */,
@@ -109,6 +125,33 @@
 				4F0E52581D9BC9BE00760424 /* Info.plist */,
 			);
 			path = HealthSportsDemoUITests;
+			sourceTree = "<group>";
+		};
+		4F0E52611D9BC9CF00760424 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4FA762591D9E21A10030D008 /* HealthSport01.jpeg */,
+				4F4040F41D9E153E00C97D11 /* SVProgressHUD */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		4F0E52621D9BC9E100760424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0E52651D9BCA0F00760424 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F4040F41D9E153E00C97D11 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4F4040F51D9E153E00C97D11 /* SVProgressHUD.bundle */,
+				4F4040F61D9E153E00C97D11 /* SVProgressHUD.h */,
+				4F4040F71D9E153E00C97D11 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +203,13 @@
 				TargetAttributes = {
 					4F0E52381D9BC9BE00760424 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWQPN2RE82;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					4F0E52511D9BC9BE00760424 = {
 						CreatedOnToolsVersion = 8.0;
@@ -193,7 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4040F81D9E153E00C97D11 /* SVProgressHUD.bundle in Resources */,
+				4F4040E71D9E12D300C97D11 /* SVProgressHUD in Resources */,
 				4F0E524C1D9BC9BE00760424 /* LaunchScreen.storyboard in Resources */,
+				4FA7625A1D9E21A10030D008 /* HealthSport01.jpeg in Resources */,
 				4F0E52491D9BC9BE00760424 /* Assets.xcassets in Resources */,
 				4F0E52471D9BC9BE00760424 /* Main.storyboard in Resources */,
 			);
@@ -214,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0E52441D9BC9BE00760424 /* ViewController.m in Sources */,
+				4F4040F91D9E153E00C97D11 /* SVProgressHUD.m in Sources */,
 				4F0E52411D9BC9BE00760424 /* AppDelegate.m in Sources */,
 				4F0E523E1D9BC9BE00760424 /* main.m in Sources */,
 			);
@@ -351,7 +404,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthSportsDemo/HealthSportsDemo.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
 				INFOPLIST_FILE = HealthSportsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthSports.HealthSportsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,7 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthSportsDemo/HealthSportsDemo.entitlements;
+				DEVELOPMENT_TEAM = UWQPN2RE82;
 				INFOPLIST_FILE = HealthSportsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HealthSports.HealthSportsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +469,7 @@
 				4F0E525D1D9BC9BE00760424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F0E525E1D9BC9BE00760424 /* Build configuration list for PBXNativeTarget "HealthSportsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +478,7 @@
 				4F0E52601D9BC9BE00760424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
